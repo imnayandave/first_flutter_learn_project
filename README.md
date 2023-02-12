@@ -1,8 +1,11 @@
+Learning With Every Commit & Every Step;
+Any Little Help/Guidance is very appreciated and already blissful. :)
+
+Current App Screenshot
+![Screenshot 2023-02-12 at 6 45 28 PM](https://user-images.githubusercontent.com/61861453/218313452-ae889ad0-8415-4906-8feb-d278dcf5e8d6.png)
+
+
 # first_flutter_learn_project
-
-A new Flutter project.
-
-## Getting Started
 
 This project is a starting point for a Flutter application.
 
