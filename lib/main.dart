@@ -20,19 +20,18 @@ class HomeApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
+                width: fetchSize(context, true)*0.15,
+                height: fetchSize(context, true)*0.125,
                 decoration: const BoxDecoration(
+                  image: DecorationImage(image: AssetImage('assets/i_am_rich_app_icon.png'),),
                   color: Colors.grey,
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
-                        blurRadius: 5,
+                        blurRadius: 2.5,
                         color: Colors.black38,
                         spreadRadius: 2.5),
                   ],
-                ),
-                child: CircleAvatar(
-                  radius: fetchSize(context, true)*0.125,
-                  backgroundImage: AssetImage('assets/i_am_rich_app_icon.png'),
                 ),
               ),
               Padding(
